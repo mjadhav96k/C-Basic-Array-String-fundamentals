@@ -11,7 +11,7 @@ namespace C__Basic___Array_String_fundamentals
         public static void Run()
         {
             Console.WriteLine("Running Program 1...");
-            int[] array = new int[]{ 1, 2, 3, 4};
+            int[] array = new int[]{ 1, 2, 3, 4, 5, 6};
             int max = -1;
 
             for (int i = 0; i < array.Length; i++)
