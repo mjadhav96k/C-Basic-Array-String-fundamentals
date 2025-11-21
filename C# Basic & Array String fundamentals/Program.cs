@@ -11,6 +11,7 @@ namespace BasicCsharp
             Console.WriteLine("1. Find the maximum element in a given integer array.");
             Console.WriteLine("2. Calculate the average of all elements in an integer array.");
             Console.WriteLine("3. Check if a given integer is a prime number.");
+            Console.WriteLine("4. Compute the factorial of a non-negative integer N.");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) 
@@ -23,6 +24,9 @@ namespace BasicCsharp
                     break;
                 case 3:
                     CheckPrime.Run();
+                    break;
+                case 4:
+                    Factorial.Run(); 
                     break;
 
                 default:

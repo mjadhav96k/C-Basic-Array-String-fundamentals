@@ -30,14 +30,14 @@ namespace C__Basic___Array_String_fundamentals
             {
                 return true;
             }
-            if(num / 2 == 0)
+            if(num % 2 == 0)
             {
                 return false;
             }
             int squareRoot = Convert.ToInt32(Math.Ceiling(Math.Sqrt(num)));
             for (int i = 3; i <= squareRoot; i++)
             {
-                if(num / i == 0)
+                if(num % i == 0)
                     return false;
             }
             return true;
