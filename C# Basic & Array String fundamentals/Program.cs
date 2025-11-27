@@ -12,6 +12,7 @@ namespace BasicCsharp
             Console.WriteLine("2. Calculate the average of all elements in an integer array.");
             Console.WriteLine("3. Check if a given integer is a prime number.");
             Console.WriteLine("4. Compute the factorial of a non-negative integer N.");
+            Console.WriteLine("5. Generate the first N numbers in the Fibonacci sequence.");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) 
@@ -27,6 +28,9 @@ namespace BasicCsharp
                     break;
                 case 4:
                     Factorial.Run(); 
+                    break;
+                case 5:
+                    FibonacciSequence.Run();
                     break;
 
                 default:
