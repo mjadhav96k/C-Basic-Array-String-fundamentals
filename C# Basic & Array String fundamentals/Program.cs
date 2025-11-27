@@ -13,6 +13,7 @@ namespace BasicCsharp
             Console.WriteLine("3. Check if a given integer is a prime number.");
             Console.WriteLine("4. Compute the factorial of a non-negative integer N.");
             Console.WriteLine("5. Generate the first N numbers in the Fibonacci sequence.");
+            Console.WriteLine("6. Reverse a given string. (e.g., \"hello\" → \"olleh\").");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice) 
@@ -31,6 +32,9 @@ namespace BasicCsharp
                     break;
                 case 5:
                     FibonacciSequence.Run();
+                    break;
+                case 6:
+                    ReverseString.Run(); 
                     break;
 
                 default:
